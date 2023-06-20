@@ -183,7 +183,7 @@ html {
     width: 250px;
     height: 200px;
     border-radius: 15px;
-    background-color: rgba(216, 179, 63, 0.6);
+    background-color: coral;
     float: right;
     margin-right: 200px;
     margin-top: -200px;
@@ -193,7 +193,7 @@ html {
     width: 250px;
     height: 200px;
     border-radius: 15px;
-    background-color: rgba(216, 179, 63, 0.6);
+    background-color: coral;
     margin-left: 610px;
     margin-top: -320px;
     font-size: 14px;
@@ -202,7 +202,7 @@ html {
     width: 250px;
     height: 200px;
     border-radius: 15px;
-    background-color: rgba(216, 179, 63, 0.6);
+    background-color: coral;
     margin-left: 270px;
     margin-top: 95px;
     margin-bottom: 120px;
