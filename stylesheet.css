@@ -1,4 +1,6 @@
 body {
+    margin: 0;
+    padding: 0;
     background: floralwhite;
     font-family: sans-serif;
     height: 100%;
@@ -124,9 +126,11 @@ html {
     color: #1c2747;
 }
 #footer{
+
     background-image: url("Songbird.png");
     height: 120px;
-    margin: 47px -10px -20px;
+    width: 100%;
+    margin: 47px 0px -20px;
 
 }
 #footer h1{
@@ -273,4 +277,65 @@ html {
 .container{
     width: 100%;
     height: auto;
+}
+
+.form-container{
+    background: #bad5de;
+    border-radius: 8px;
+    width:340px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjust the values as needed */
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 830px;
+
+}
+.my-contact-info{
+    line-height: 30px;
+}
+
+form input{
+    border-radius: 15px;
+    height: 30px;
+    width: 330px;
+    border: none;
+}
+
+.button {
+    background: linear-gradient(135deg, #6bf1f1, #c73cf1);
+    border-radius: 15px;
+    height: 35px;
+    width: 335px;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
+input[type="text"]::placeholder,
+input[type="tel"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+    padding-left: 10px;
+
+}
+
+.mail{
+    height: 300px;
+    margin-bottom: -350px;
+    margin-left: 340px;
+}
+.contact-intro{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 560px;
+    color: #1c2747;
+}
+.contact-intro p{
+    margin-left: 45px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-top: -10px;
+}
+#message{
+    border-radius: 10px;
+    width: 330px;
+    border: none;
 }
